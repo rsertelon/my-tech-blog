@@ -1,0 +1,65 @@
+---
+layout: post
+title: Gatling 1.3 is Out
+---
+
+If you don't know the project, you can look at [this article](/en/2012/04/01/gatling-:-stress-tool-made-efficient).
+
+## From then to now
+
+It's been almost one year since the first public release of Gatling was announced. What a journey! Here are some numbers about the project:
+
+* 1 major release
+* 3 minor releases
+* 14 fix packs
+* 20k LoC
+* [21 contributors](https://github.com/excilys/gatling/graphs/contributors)
+* More than 2500 downloads
+* 650 downloads of Gatling 1.2.5 (available two months for download during summer)
+* 2 conferences ([Devoxx France 2012](http://www.devoxx.com/display/FR12/Realiser+des+tests+de+charges+avec+Gatling) and [Mix-IT 2012](http://www.mix-it.fr/session/25/stresser-son-application-avec-gatling))
+* 5 presentations at user groups
+
+Even though I can not contribute to Gatling as much as I have done in the first months, I'm really happy to see the interest in Gatling growing like that :).
+
+## Gatling 1.3
+
+In the last months, [Stéphane Landelle](https://github.com/slandelle), [Nicolas Rémond](https://github.com/nire), [Grégory Coutant](https://github.com/gcoutant), [Pierre Dal-Pra](https://github.com/pdalpra) and [Bastien Lemale](https://github.com/excilys-blemale) have been working hard to release Gatling 1.3.
+
+Since 1.1, here are the major changes that happened:
+
+* General
+	* __Incremental compilation of scenarios__ &mdash; When executing Gatling you won't have to wait for all the scenarios to compile each time
+	* __Console Dashboard__ &mdash; More information are displayed in the console when simulations are running
+	* __Real-time feedback with Graphite Integration__ &mdash; Gatling can send data to a graphite server during the simulation.
+* DSL
+	* __Refactored structures__ &mdash; Keeping the DSL simple and explicit is really important, scenarios are even more easy to read/write now
+	* __Many new keywords__ &mdash; There are less and less things that cannot be expressed with the DSL
+	* __DSL for durations__ &mdash; Coming from Akka, durations can be expressed as easily as `3 ms`
+* HTTP
+	* __Better performance__ &mdash; Netty has been upgraded, it comes with better performance
+	* __Simple cache support__ &mdash; Gatling will now interpret some cache headers
+	* __Multi file upload__ &mdash; Send many files in your requests
+* Reports
+	* __Redesign of charts for better reading__ &mdash; Gatling's reports were nice, but now they're even nicer
+	* __More information for global report__ &mdash; All the details computed for each request are now also computed at a global level
+	* __CSV export of reports__ &mdash; For those who need to work with the data
+
+These are some of the [many new features](https://github.com/excilys/gatling/wiki/Changelog) of Gatling. As you can see, there have been many improvements since the first version of the project last year.
+
+Gatling's lead (Stéphane Landelle) really drives the project toward good quality. To achieve excellent quality, user feedback is _very_ important for us. If you use Gatling and find yourself frustrated about something, you can check the [documentation](https://github.com/excilys/gatling/wiki) of the project, or its new [cheat sheet](http://galting-tool.org/cheat-sheet). If you can't find an answer to your problem, please start or contribute to a topic on our [mailing list](https://groups.google.com/forum/#!forum/gatling) :)
+
+## What's next?
+
+For the future, there are at least three other cool features planned: 
+
+1. __A Jenkins Plugin__ &mdash; It already works, but as the code is not 'good enough' yet, it should be released in the next weeks
+2. __Request Grouping__ &mdash; It will allow one to create groups of requests to obtain statistics about them in the reports
+3. __Clustering mode__ &mdash; As soon as [Akka](http://akka.io) is realeased with clustering support, we'll start to work on this
+
+In terms of spreading the love around the project, we will be [presenting Gatling](http://devoxx.com/display/DV12/Blast+your+webapp+with+Gatling) at [Devoxx 2012](http://devoxx.com) in Antwerp, Belgium! We're excited to present Gatling in English at this huge conference :)
+
+Gatling has also been invited to several user groups in Europe: Luxembourg, Lausanne, Lille, Bordeaux, and others!
+
+If you need a stress tool, give [Gatling](http://gatling-tool.org) a try, it's really worth it! And please, if you find it useful, spread the word :)
+
+_EDIT_: Added Bastien Lemale to the credits

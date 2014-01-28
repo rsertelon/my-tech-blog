@@ -1,0 +1,18 @@
+---
+layout: post
+title: IPv6 Day, j'en serai!
+---
+
+L'IPv6 approche, et je souhaite faire partie des acteurs du web qui veulent l'orienter vers le futur, c'est pour ça que je participerai à l'IPv6 Day :)
+
+## IP quoi ?
+
+Le café ou les croissants ? Rien de tout cela :P Comme vous le savez (ou pas forcément), les adresses IP sont des adresses numériques qui permettent à nos ordinateurs de communiquer à travers Internet. Aujourd'hui, la plupart des ordinateurs/serveurs présents sur la toile ont une IPv4 (Internet Protocol version 4), mais ces adresses ont un défaut majeur : leur nombre maximal a été atteint, il n'y a donc plus assez d'adresses pour tous les ordinateurs et autres appareils connectés au net, ce qui est assez ennuyeux en soi.
+
+## Pourquoi IPv6 Day ?
+
+Cela fait un bon moment que l'Internet Engineering Task Force (IETF) a déposé une RFC (Request For Comments) qui décrit le protocole IPv6 (Internet Protocol version 6) et qui autorise plus d'un million de millards d'adresses IP par mm² sur Terre ; autant vous dire qu'on sera tranquille un bon moment avec ça ;) Contrairement à ce que beaucoup croient, IPv6 n'a donc pas été créé à la va-vite pour palier le manque d'IPv4, c'est un protocole qui a beaucoup muri depuis 1998... C'est donc dans le but de pousser les différents acteurs du web à passer à l'IPv6 qu'a été annoncé l'IPv6 Day, le mercredi 8 juin, qui sera un test à grande échelle de l'IPv6 pendant les 24h de cette journée. Pas de panique si vous ne savez pas si vous pourrez ou non accéder à tous les services d'Internet mercredi, voici de quoi tester votre ligne : [http://ipv6test.google.com/](http://ipv6test.google.com/)
+
+## Et donc t'y seras ?
+
+Oui, enfin, pas moi, mais plutôt le serveur qui héberge ce blog et d'autres sites/services ;) Il ne faut pas grand chose pour passer à IPv6, c'est pourquoi j'ai voulu apporter ma pierre et proposer mes sites en IPv6 aussi :) Si tout se passe bien, l'adresse de mon blog sera affichée sur cette page tout en vert :P
