@@ -1,6 +1,5 @@
 name: Romain Sertelon's tech blog
 markdown: redcarpet
-pygments: true
 permalink: /:title.html
 encoding: UTF-8
 baseurl: https://romain.sertelon.fr/tech

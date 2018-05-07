@@ -11,7 +11,7 @@ PHPDoc est une application sous forme de scripts PHP permettant de générer aut
 
 Exemple de DocBlock :
 
-{% highlight php %}
+```php
 /**
 * Description de ma fonction fonction_test()
 *
@@ -20,7 +20,7 @@ Exemple de DocBlock :
 function fonction_test() {
     return $error;
 }
-{% endhighlight %}
+```
 
 Vous pouvez générer votre documentation HTML soit en ligne de commande, soit par l'interface web de PHPDoc. Il existe plusieurs templates, ce qui vous permet de choisir un modèle en accord avec votre charte graphique et vous pouvez même créer les vôtres.
 

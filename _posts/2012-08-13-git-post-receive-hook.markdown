@@ -37,11 +37,11 @@ With all this, let's go and create a simple hook that will build and publish a j
 
 First, let's add the hook (I'll use a bare git repository in this example) :
 
-{% highlight bash %}
+```bash
 ~/my-repo $ cat > hooks/post-receive
 #!/bin/bash
 ~/my-repo $ chmod +x hooks/post-receive
-{% endhighlight %}
+```
 
 This is it, we have created the hook.
 
@@ -49,14 +49,14 @@ This is it, we have created the hook.
 
 Now, we have to fill the script with useful stuff:
 
-{% highlight bash %}
+```bash
 #!/bin/bash
 mkdir -p /tmp/my-jekyll-website                                             #1
 GIT_WORK_TREE=/tmp/my-jekyll-website git checkout -f                        #2
 rm -r -f /var/www/my-jekyll-website/*                                       #3
 jekyll --no-auto --safe /tmp/my-jekyll-website/ /var/www/my-jekyll-website/ #4
 rm -r -f /tmp/blog.bluepyth.fr                                              #5
-{% endhighlight %}
+```
 
 Let's explain this little script:
 
@@ -72,8 +72,8 @@ Here you go!
 
 Now let's try it, just type in from your working directory:
 
-{% highlight bash %}
+```bash
 ~/sources/my-jekyll-website $ git push web
-{% endhighlight %}
+```
 
 And voila! You can see in the console that the jekyll website has been generated and deployed!
