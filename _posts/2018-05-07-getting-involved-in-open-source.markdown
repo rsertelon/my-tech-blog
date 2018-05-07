@@ -19,7 +19,7 @@ It was hard to find such a project for me. I've got mainly a Java background, an
 
 So I became a bit frustrated, leaving this aside as I didn't have any motivation left at the moment.
 
-Then, two years ago, I learned the existence of the [Rust](https://rust-lang.org) language, just before it's first major release. It was created by [Mozilla](https://mozilla.org), a non-profit I really care about, and its design looked really promising to me. So I tried to get involved, I went to meetups, I read the book, I wrote some code snippets, but even if I had spent a lot of time on it, I started to feel like I wouldn't be able to do much. Rust is cool, but contributing to its compiler was too far a goal for me.
+Then, two years ago, I learned the existence of the [Rust](https://rust-lang.org) language, just before its first major release. It was created by [Mozilla](https://mozilla.org), a non-profit I really care about, and its design looked really promising to me. So I tried to get involved, I went to meetups, I read the book, I wrote some code snippets, but even if I had spent a lot of time on it, I started to feel like I wouldn't be able to do much. Rust is cool, but contributing to its compiler was too far a goal for me.
 
 Around the same time, I was looking for solutions to deploy the software I was working on. And I still read much about Rust, so I stumbled upong a [presentation](https://www.youtube.com/watch?v=oxtRP1eYCns) made by Adam Jacob, Chef's CTO, about a new open source project they were announcing, namely: [Habitat.sh](https://habitat.sh).
 
