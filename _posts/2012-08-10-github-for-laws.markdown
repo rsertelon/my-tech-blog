@@ -25,7 +25,7 @@ Having a Github for laws could be wonderful. Imagine all citizens having access 
 
 ## But... (because there's always a 'but')
 
-There's IMHO, one caveat in publishing the laws on _Github _: it is a company, and 'worse', a US company. I have nothing against US companies, don't get me wrong, but I think that there should be a UN Github for laws. A country-independant organization behind the website holding the laws of these countries. It is not a matter of danger (I don't think there's a real risk to give a company the laws of your country, as it is public anyway), rather a matter of having a common independant website for each country to publish their laws to.
+There's IMHO, one caveat in publishing the laws on _Github _: it is a company, and 'worse', a US company. I have nothing against US companies, don't get me wrong, but I think that there should be a UN Github for laws. A country-independent organization behind the website holding the laws of these countries. It is not a matter of danger (I don't think there's a real risk to give a company the laws of your country, as it is public anyway), rather a matter of having a common independent website for each country to publish their laws to.
 
 As we have the IMF (International Monetary Fund), WTO (World Trade Organization), Security Council, and many others, we could have an International Law Transparency Organization (excuse the lack of imagination).
 

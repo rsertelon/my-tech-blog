@@ -3,7 +3,7 @@ layout: post
 title: Habitat Introduction
 ---
 
-_In a [recent post](../tech/getting-involved-in-open-source.html), I explained how I got involved in [Habitat](https://habitat.sh), time to present it a bit more._
+_In a [recent post]({{site.baseurl}}{% link _posts/2018-05-07-getting-involved-in-open-source.markdown %}), I explained how I got involved in [Habitat](https://habitat.sh), time to present it a bit more._
 
 ## The new Frontier
 

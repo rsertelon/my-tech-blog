@@ -10,7 +10,7 @@ Today, I moved my blog from [Dotclear](http://dotclear.org) to [Jekyll](https://
 
 This is a good question; yet, the answer is not purely logical. Indeed, I'm a developer; I love testing new stuff. This is the main reason I chose to move to jekyll.
 
-But while I was moving all (ahem, there are only a few posts on my blog), I realised how Jekyll will help me keep my blog easy to maintain.
+But while I was moving all (ahem, there are only a few posts on my blog), I realized how Jekyll will help me keep my blog easy to maintain.
 
 ## Anyway, what is Jekyll?
 

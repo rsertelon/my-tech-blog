@@ -19,10 +19,10 @@ Mais il existe une alternative à ces solutions, qui a l'avantage d'être access
 
 J'ai nommé [Cacoo](http://cacoo.com) ! N'hésitez pas à jeter un oeil à ce petit bijou qui nous vient tout droit du Japon et qui permet de faire de beaux diagrammes facilement et rapidement. Certaines fonctionnalités sont devenues payantes, ce qui est dommage, mais si vous devez en faire une utilisation professionnelle, les prix ne sont pas prohibitifs ;)
 
-![Tour 01](/assets/img_tour_01.png)
-![Tour 03](/assets/img_tour_03.png)
-![Tour 04](/assets/img_tour_04.png)
-![Tour 05](/assets/img_tour_05_en.png)
-![Tour 10](/assets/img_tour_10.png)
-![Tour 11](/assets/img_tour_11.png)
+![Cacoo 01]({{ "/assets/cacoo_01.png" | relative_url }})
+![Cacoo 02]({{ "/assets/cacoo_02.png" | relative_url }})
+![Cacoo 03]({{ "/assets/cacoo_03.png" | relative_url }})
+![Cacoo 04]({{ "/assets/cacoo_04.png" | relative_url }})
+![Cacoo 05]({{ "/assets/cacoo_05.png" | relative_url }})
+![Cacoo 06]({{ "/assets/cacoo_06.png" | relative_url }})
 

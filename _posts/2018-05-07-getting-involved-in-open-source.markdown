@@ -37,4 +37,4 @@ So I started to ask questions, I tried to help clean up old issues (they often g
 
 ## Conclusion
 
-The aim of this article is to say "If you want to contribute to open source, you always can", it's just a matter of finding the right place for you to do it. I think it's not useful to try to force yourself in contibuting to any project, it can be hard. Rather, let the circumstances happen, and take the opportunity when you see it!
+The aim of this article is to say "If you want to contribute to open source, you always can", it's just a matter of finding the right place for you to do it. I think it's not useful to try to force yourself in contributing to any project, it can be hard. Rather, let the circumstances happen, and take the opportunity when you see it!

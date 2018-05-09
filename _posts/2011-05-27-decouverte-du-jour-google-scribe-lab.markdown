@@ -17,7 +17,7 @@ Google Scribe est une évolution intéressante des traitements de textes. Jusqu'
 
 En effet, si je tape rea, il me propose really. Une simple pression sur la touche espace, et le mot est écrit en entier. Même si j'avoue que ça me ralentirait plus qu'autre chose, je trouve l'idée intéressante pour les personnes qui ne sont pas très habituées aux claviers. On peut aussi y voir une aide pour des terminaux au clavier plus petit (un peu à la manière du T9).
 
-![Google Scribe Example](/assets/google-scribe.png)
+![Google Scribe Example]({{ "/assets/google-scribe.png" | relative_url }})
 
 Les traitements du langage humain par des ordinateurs font de plus en plus de progrès, j'ai hâte de voir ce qui nous attend dans le futur !
 

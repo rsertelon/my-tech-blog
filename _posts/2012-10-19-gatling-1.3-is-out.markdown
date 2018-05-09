@@ -3,7 +3,7 @@ layout: post
 title: Gatling 1.3 is Out
 ---
 
-If you don't know the project, you can look at [this article](/en/2012/04/01/gatling-:-stress-tool-made-efficient).
+If you don't know the project, you can look at [this article]({{site.baseurl}}{% link _posts/2012-04-01-gatling-stress-tool-made-efficient.markdown %}).
 
 ## From then to now
 

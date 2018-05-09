@@ -15,7 +15,7 @@ Pour faire simple, le MVC divise votre site web en 3 parties ayant chacune un r�
 
 ## Fonctionnement d'un MVC
 
-![MVC Rails](/assets/mvc-rails.png)
+![MVC Rails]({{ "/assets/mvc-rails.png" | relative_url }})
 
 Ce schéma présente le fonctionnement d'un pattern MVC. Le contrôleur est l'intermédiaire unique avec le client (l'utilisateur du site), il va ensuite s'occuper d'aller récupérer les données à afficher, il les insèrera dans la vue et une fois le tout compilé, il enverra la réponse au client.
 

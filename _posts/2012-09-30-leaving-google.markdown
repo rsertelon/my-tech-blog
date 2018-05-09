@@ -15,7 +15,7 @@ From my point of view, Google has been my 'Internet father', educating me on how
 
 ## Where is my data? What is it used for?
 
-Appart from this teenager crisis, there are other serious facts that push me out of Google's services.
+Apart from this teenager crisis, there are other serious facts that push me out of Google's services.
 
 ### One privacy policy to rule them all
 
