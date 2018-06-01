@@ -1,0 +1,125 @@
+---
+layout: 'post'
+title: 'Devoxx France 2018'
+---
+
+_I submitted a talk for [habitat](https://www.habitat.sh) to the Devoxx France 2018 CFP. It was not accepted, but they reserved tickets for people who submitted talks, so I could attend anyways. Here's the summary of what I've seen during the conference._
+
+# The conference
+
+The conference is mainly in French (as its name suggests). It lasted 3 days, the first being mainly comprised of long and comprehensive talks (called universities) and hands-on labs, and the last two days being comprised of around 45mns conferences and talks. There are also quickies (15mns talks during lunch) and tools in action (30mns talks about a specific tool to demo it).
+
+I usually do not spend much time on the companies booths during conferences, since there's a lot that I want to learn and my conference planning is usually extra-full. This year though I was a bit disappointed in the program, and few slots were not filled in my planning, giving me some time to walk around.
+
+There was a startup village among which I met with former colleagues who are still working on [Gatling](https://gatling.io), they were presenting their enterprise product: [Gatling Frontline](https://gatling.io/gatling-frontline/). There were all the big ones in IT too: Microsoft, IBM, Github, Redhat, Eclipse, JFrog, ... Those, we usually know what they do, but I stumbled upon the MAIF booth, a French insurance company presenting their new open source projects [otoroshi](https://maif.github.io/otoroshi/) (dynamic reverse proxy) and [izanami](https://maif.github.io/izanami/) (feature flipping).
+
+The following notes are all written down from memory, and it might be a bit fuzzy/incomplete/... so I added the video links where possible ;)
+
+# Keynotes
+
+The last two days started by a bunch of keynotes:
+
+## la e-residence estonienne et l'entreprenariat sans fontières _[video fr](https://www.youtube.com/watch?v=qTpKVBZoMs4)_
+
+_Estonia's e-residency and entrepreneurship without borders_
+
+This talk presented the e-residency program built by Estonia to facilitate the administrative processes of the country, and allow any world citizen to create a company from abroad in less than half a day. This was interesting, but even though the speaker stressed that this was not to bring capital to Estonia that this was being created (more of a generous gift to foreign citizens), I think it boils down to exactly just that given the metrics he gave.
+
+## l'économie collaborative: soutenez, financez! _[video fr](https://www.youtube.com/watch?v=nQh-zMQBibQ)_
+
+_Crowdfunding: back, invest!_
+
+This talk presented key figures in the crowdfunding space. The speaker (CTO of [Leetchi.com](https://leetchi.com)) showed how empowering crowdfunding can be for persons looking to fund a project, or for backers that could invest in a product they think deserves to. The focus was also on how it allows to regain control of the economy or help change the society, quoting the [pool for French transportation strikers](https://www.leetchi.com/c/solidarite-avec-les-cheminots-grevistes-31978353) that went over a Million euros.
+
+
+## le smart building, par où commencer? _[video fr](https://www.youtube.com/watch?v=43RPMXEU3sk)_
+
+_Smart Building: where should we begin?_
+
+This talk was given by a person working in construction, it was interesting to have their perspective on what IT could bring to buildings. My impressions are a bit mixed as, on the one hand, he presented new state-of-the-art technologies and buildings with the usual face recognition security and smart building that knows when one of its parts will fail but needs GAFAM to handle this due to data complexity etc. (duh!)
+
+On the other hand, and this I liked very much, he presented old building saying they are really well designed, and proposed instead of big smart buildings, we could create communities in our buildings and technology could be a mean to that end. Much like free software and hacker minded solution here (yay!)
+
+## software heritage: pourquoi et comment préserver le patrimoine logiciel de l'humanité ? _[video fr](https://www.youtube.com/watch?v=UqUh02955EQ)_
+
+_Software Heritage: why and how can we preserve Humanity's software?_
+
+This talk presented Software Heritage, a non-profit organization whose aim is to archive all software sources, it looks a lot like the [Internet Archive](https://archive.org/), but for software sources. There are tons of software that disappear every year either because their website shuts down, or because the third party that hosted it closed (Google Code, Gitorious, etc.), and it's the non-profit goal to save them all.
+
+## l'ordinateur quantique _[video fr](https://www.youtube.com/watch?v=ciM6xK05t2o)_
+
+_The quantum computer_
+
+This was a great presentation of how computers work, and what makes quantum computers different. If you're interested in the subject, it's worth watching it!
+
+## french-road _[video fr](https://www.youtube.com/watch?v=0gv9jWD1EN8)_
+
+This is an attempt at mimicking the e-residency program of Estonia, at least for improving the administration's infrastructure. What's strange to me is that it seems to be a private company doing this. I'd hoped this would be part of the Etalab organization (a public one).
+
+##  l'homme sur mars: pourquoi ? comment ? les défis. *[video fr](https://www.youtube.com/watch?v=rG7_vzGJFrk)*
+
+_Man on Mars: why? how? the challenges_
+
+This talk presented a brief summary of the advances in a possible Mars colonization. IMHO, it was a bit too much "Elon musk is a hero", but the enthusiasm of the speaker was clearly visible, and it seems a lot of people were enthusiastic in the audience, judging by the long clap sequence at the end ;) (which was cut in the video, you'll have to believe me :p)
+
+# First day
+
+## Rust hands-on lab *[abstract](http://cfp.devoxx.fr/2018/talk/QAL-4376/Atelier_Rust)*
+
+I attented this Rust workshop because I like the language and even though I've been watching it for the last 3 years, I don't code much with it, so going back to basics is a way for me to reinforce my knowledge of the language. It was really nice, the sources of the exercises can be [found here](https://github.com/logan-et-alessio/rust-workshop)
+
+## Building a decentralized application with grpc *[abstract](http://cfp.devoxx.fr/2018/talk/PDL-6381/Building_a_Decentralized_Application_with_gRPC)*
+
+I've heard many things about grpc in the past months, so I wanted to give it a try. The workshop was about building a decentralized application, which are basically working in a p2p fashion where every node shares the state, but no one is more important than others. In this example, we used a custom blockchain and connected the apps so they could work together communicating via grpc and sharing state in the blockchain.
+
+# Second day
+
+## Literate programming
+
+This was a lightning talk about a strange programming paradigm which consists in writing prose to describe what the software does, and then add some code bits that actually does the stuff. It strives to make the code and documentation interleave so that it is more explicit. That won't work for me I think ;)
+
+## Spring framework 5: feature highlights & hidden gems *[video en](https://www.youtube.com/watch?v=WWmRr_6FO1U)*
+
+This talk was presented by the CTO for the Spring Framework. He described a bit of the history of the framework, its core values, and showed why Spring 5 happened to contain the features it does. As a long time user of Spring (Core mainly), I found this really interesting to have that history and the overview of new features was too.
+
+## Linuxkit: le linux façon ikea _[video fr](https://www.youtube.com/watch?v=lvwRhfHIGB4)_
+
+_Linuxkit: Linux, ikea style_
+
+The project is interesting, it allows anyone to create a simple linux image. The aim of this is to be able to create a custom linux OS containing only the parts that you want so that it too becomes a commodity.
+
+## En finir avec les problèmes de gestion de dépendances _[video fr](https://www.youtube.com/watch?v=nk8-VfX7rj4)_
+
+_Solving dependencies management issues_
+
+The title was a bit too vague, but nevertheless, as I spend my time managing dependencies (be it between packages or APIs), I thought this would be interesting to see what I could learn there. It was actually about Gradle and a new package descriptor they want to push forward that should help describe dependencies better than POMs.
+
+## concourse, l'intégration continue cloud native _[video fr](https://www.youtube.com/watch?v=moiSC3gmCew)_
+
+_Concourse, cloud native continuous integration_
+
+Concourse is being used by habitat's team members to try to automate integration tests for core plans, so I watched the talk to bootstrap my knowledge. The demonstration was quite nice, and it showed quickly how you can use concourse and fly (its cli tool) to create CI pipelines. I find the software really nice, but I'd need to try it a bit, might be a good tool for my day job.
+
+# Third and last day
+
+## Nouvelle génération de tests pour projets java _[video fr](https://www.youtube.com/watch?v=ZNDzDucCn4o)_
+
+_New generation of tests or java projects_
+
+This talk was given by the lead tech of XWiki, a (French) enterprise wiki written in java. The speaker gave a historical view of their testing organization and then introduced new test types like mutation testing. It consists in mutating the code automatically to validate if written tests are actually good tests. It does so by detecting if code changes break the tests meaning that the test actually tested the missing bit.
+
+## Etendre l'API kubernetes avec vos propres services *[abstract](http://cfp.devoxx.fr/2018/talk/MZS-6759/Etendre_l'API_Kubernetes_avec_vos_propres_services)*
+
+_Extend kubernetes API with your own services_
+
+This was a workshop that explained how you can create kubernetes services, integrate with its API and create your own go client for this service. The aim of the exercises was to create a service that would create etcd services in k8s.
+
+## Demain j'arrête le café, je me mets au crabe! _[video](https://www.youtube.com/watch?v=c5jQZ8bpkOY)_
+
+_Tomorrow I stop coffee, and start crab!_
+
+This was an introductory talk about rust for java developers, I went by default, because I think I already knew its content. It went quite well, but I had to leave before the end to catch my train home...
+
+# Conclusion
+
+My preferred talks were about crowdfunding, quantic computers, concourse, Rust and the one on new tests for java projects. It was fun re-connecting with former colleagues and discover new things, maybe next year I'll get to [re-talk](http://lanyrd.com/2012/devoxx-france/sqtgw/) at Devoxx France!
