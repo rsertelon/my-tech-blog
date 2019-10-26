@@ -1,6 +1,5 @@
-name: Blog de Romain Sertelon
-markdown: redcarpet
+name: Romain Sertelon's tech blog
 permalink: /:title.html
 encoding: UTF-8
 show_drafts: true
-baseurl: 
+baseurl:
