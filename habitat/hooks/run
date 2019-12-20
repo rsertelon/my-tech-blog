@@ -1,0 +1,5 @@
+#!/bin/sh
+
+exec 2>1&
+
+exec thttpd -D -p {{cfg.server_port}} -d {{pkg.path}}
